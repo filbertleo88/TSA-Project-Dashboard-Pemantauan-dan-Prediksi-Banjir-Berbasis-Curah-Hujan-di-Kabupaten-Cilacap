@@ -3,8 +3,5 @@ pandas
 seaborn
 statsmodels
 streamlit
-plotly.express
-plotly.subplots
-plotly.graph_objects
 joblib
 streamlit-option-menu
