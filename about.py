@@ -72,18 +72,20 @@ def app():
 
     st.header("Referensi Tambahan")
     st.markdown("""
-        - **GitHub Project:** [Link ke Proyek di GitHub](https://github.com/username/nama-proyek)
-        - **Presentasi PowerPoint:** [Link ke Presentasi PowerPoint](https://link-presentasi-powerpoint)
+        - **GitHub Project:** [Link ke Proyek di GitHub](https://github.com/filbertleo88/TSA-Project-Dashboard-Pemantauan-dan-Prediksi-Banjir-Berbasis-Curah-Hujan-di-Kabupaten-Cilacap.git)
+        - **Presentasi PowerPoint:** [Link ke Presentasi PowerPoint](https://www.canva.com/design/DAF0A1dJX7U/wJ4v3GbixYVc9uGgUBMwkQ/view?utm_content=DAF0A1dJX7U&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+        - **Jurnal 1:** [Klasifikasi Curah Hujan di Kota Semarang Menggunakan Machine Learning](https://drive.google.com/file/d/1xNt8ukRLHngGABqxNzf8EcvIk4Mm6oo7/view?usp=drive_link)
+        - **Jurnal 2:** [Implementasi CRISP-DM Model Menggunakan Metode Decision Tree dengan Algoritma CART untuk Prediksi Curah Hujan Berpotensi Banjir](https://drive.google.com/file/d/1z_ogTpqjQzLNKka3rvAtAsEZJ4Fb0lJY/view?usp=drive_link)
     """)
 
     st.header("Kontak")
     st.markdown("""
-        Dashboard ini merupakan projek akhir dari Program DTS TSA 2023 yang dikerjakan oleh kelompok 4 (Kelas A).
+        Pembuatan dashboard ini merupakan projek akhir dari Program DTS TSA 2023 yang dikerjakan oleh kelompok 4 (Kelas A).
         Jika Anda memiliki pertanyaan atau umpan balik, silakan hubungi kami melalui email:
-        - Alfito: [alfito@example.com](mailto:alfito@example.com)
-        - Ziya: [ziya@example.com](mailto:ziya@example.com)
+        - Alfito Putra Fajar Pratama: [alfitoputra567@gmail.com](mailto:alfito@example.com)
+        - Muhammad Zia Ulhaq: [ziaswatfbicia@gmail.com](mailto:ziaswatfbicia@gmail.com)
         - Filbert Leonardo: [filbertleo88@gmail.com](mailto:filbertleo88@gmail.com)
-        - Bayu: [bayu@example.com](mailto:bayu@example.com)
-        - Siti: [siti@example.com](mailto:siti@example.com)
-        - Amanda: [amanda@example.com](mailto:amanda@example.com)
+        - Muhammad Bayu Fadayan: [bayu@example.com](mailto:bayu@example.com)
+        - Siti Ayuni: [sitiayuni2510@gmail.com](mailto:sitiayuni2510@gmail.com)
+        - Amanda Febrianti: [amandafeb2002@gmail.com](mailto:amandafeb2002@gmail.com)
     """)
