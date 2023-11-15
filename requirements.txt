@@ -7,3 +7,4 @@ plotly
 joblib
 streamlit-option-menu
 catboost
+xgboost
