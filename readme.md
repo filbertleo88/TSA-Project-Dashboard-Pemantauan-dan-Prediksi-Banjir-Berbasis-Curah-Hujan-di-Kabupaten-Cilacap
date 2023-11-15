@@ -29,10 +29,10 @@ Proyek ini menggabungkan analisis curah hujan, pemodelan prediksi curah hujan, d
 
 1. Pastikan Anda memiliki akses internet yang stabil.
 2. Jalankan aplikasi menggunakan perintah berikut di terminal atau command prompt:
-    ```bash
+    ``` bash
     streamlit run main.py
-    ```.
 3. Jelajahi fitur-fitur yang tersedia untuk mendapatkan informasi terkini.
+**Catatan:** Dashboard ini dibuat dengan menggunakan Streamlit.
 
 ## Kontribusi
 
