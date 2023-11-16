@@ -67,5 +67,3 @@ Tim pengembang dashboard ini terdiri dari:
 Projek ini bertujuan untuk memberikan pemahaman lebih lanjut tentang prediksi kejadian banjir berdasarkan data curah hujan. Dashboard ini merupakan hasil dari penerapan keterampilan yang diperoleh selama program pelatihan.
 
 **Catatan:** Projek ini disusun semata-mata untuk tujuan pendidikan dan pembelajaran. Semua konsep dan implementasi dalam dashboard ini didasarkan pada prinsip-prinsip pembelajaran yang kami peroleh selama program.
-
-Terima kasih telah menggunakan Dashboard Pemantauan dan Prediksi Banjir di Kabupaten Cilacap. Semoga dapat memberikan kontribusi positif dalam upaya pencegahan dan mitigasi dampak banjir di wilayah tersebut.
