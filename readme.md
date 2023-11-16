@@ -26,6 +26,7 @@ Proyek ini menggabungkan analisis curah hujan, pemodelan prediksi curah hujan, d
    streamlit run main.py
    ```
 3. Jelajahi fitur-fitur yang tersedia untuk mendapatkan informasi terkini.
+   
    **Catatan:** Dashboard ini dibuat dengan menggunakan Streamlit.
 
 ## Tim Pengembang
