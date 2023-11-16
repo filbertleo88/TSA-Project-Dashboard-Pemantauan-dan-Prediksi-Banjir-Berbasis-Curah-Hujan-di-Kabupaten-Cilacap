@@ -3,6 +3,12 @@ import streamlit as st
 def app():
     st.title("Tentang Kami")
 
+    st.header("Deskripsi Projek")
+    st.markdown("""
+        Pembuatan dashboard ini merupakan projek akhir dari Program DTS TSA 2023 yang dikerjakan oleh kelompok 4 (Kelas A).
+        Projek ini disusun semata-mata untuk tujuan pendidikan dan pembelajaran.
+    """)
+
     col_1, col_2, col_3 = st.columns(3)
     with col_1:
         st.header("Visi")
@@ -80,12 +86,41 @@ def app():
 
     st.header("Kontak")
     st.markdown("""
-        Pembuatan dashboard ini merupakan projek akhir dari Program DTS TSA 2023 yang dikerjakan oleh kelompok 4 (Kelas A).
-        Jika Anda memiliki pertanyaan atau umpan balik, silakan hubungi kami melalui email:
-        - Alfito Putra Fajar Pratama: [alfitoputra567@gmail.com](mailto:alfito@example.com)
-        - Muhammad Zia Ulhaq: [ziaswatfbicia@gmail.com](mailto:ziaswatfbicia@gmail.com)
-        - Filbert Leonardo: [filbertleo88@gmail.com](mailto:filbertleo88@gmail.com)
-        - Muhammad Bayu Fadayan: [bayu@example.com](mailto:bayu@example.com)
-        - Siti Ayuni: [sitiayuni2510@gmail.com](mailto:sitiayuni2510@gmail.com)
-        - Amanda Febrianti: [amandafeb2002@gmail.com](mailto:amandafeb2002@gmail.com)
+        Jika Anda memiliki pertanyaan atau umpan balik, silakan hubungi kami:
     """)
+    col_4, col_5 = st.columns(2)
+    with col_4:
+        st.markdown("""
+            - **Alfito Putra Fajar Pratama**
+                - Email: [alfitoputra567@gmail.com](mailto:alfitoputra567@gmail.com) 
+                - LinkedIn: [Alfito Putra Fajar Pratama](https://www.linkedin.com/in/alfitoptr/) 
+
+            - **Muhammad Zia Ulhaq**
+                - Email: [ziaswatfbicia@gmail.com](mailto:ziaswatfbicia@gmail.com) 
+                - LinkedIn: [Muhammad Zia Ulhaq](http://www.linkedin.com/in/muhammad-zia-ulhaq-025230206) 
+
+            - **Filbert Leonardo**
+                - Email: [filbertleo88@gmail.com](mailto:filbertleo88@gmail.com) 
+                - LinkedIn: [Filbert Leonardo](https://www.linkedin.com/in/filbert-leonardo/) 
+        """)
+    with col_5:
+        st.markdown("""
+            - **Muhammad Bayu Fadayan**
+                - Email: [bayufadayan@gmail.com](mailto:bayufadayan@gmail.com) 
+                - LinkedIn: [Muhammad Bayu Fadayan](https://www.linkedin.com/in/muhamad-bayu-fadayan) 
+
+            - **Siti Ayuni**
+                - Email: [sitiayuni2510@gmail.com](mailto:sitiayuni2510@gmail.com) 
+                - LinkedIn: [Siti Ayuni](https://www.linkedin.com/in/sitiayuni25/) 
+
+            - **Amanda Febrianti**
+                - Email: [amandafeb2002@gmail.com](mailto:amandafeb2002@gmail.com) 
+                - LinkedIn: [Amanda Febrianti](https://www.linkedin.com/in/amanda-febrianti/) 
+        """)
+
+    st.markdown("""
+        Kami ingin menegaskan bahwa tujuan utama dari projek ini adalah untuk mendukung pembelajaran dan tidak dimaksudkan untuk digunakan untuk tujuan komersial atau industri. Semua konsep dan implementasi dalam dashboard ini didasarkan pada prinsip-prinsip pembelajaran yang kami peroleh selama program.
+    """)
+
+
+

@@ -103,6 +103,11 @@ def app():
     st.subheader("Tabel Hasil Forecast Curah Hujan untuk {} Hari Kedepan".format(n_days))
     st.write(concatenated_df)
 
+    # Membuat Tombol untuk Download Dataframe ke Bentuk CSV
+    if not concatenated_df.empty:
+        csv_data = concatenated_df.to_csv(index=False)
+        st.download_button(label="Download CSV", data=csv_data, file_name='forecast.csv', key='download_button')
+
     set_forecast_data(concatenated_df)
 
     # Menampilkan penjelasan dari data diatas

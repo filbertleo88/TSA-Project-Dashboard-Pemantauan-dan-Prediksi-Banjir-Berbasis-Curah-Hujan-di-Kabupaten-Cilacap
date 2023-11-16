@@ -6,7 +6,7 @@ from web_function import get_forecast_data
 
 class SessionState:
     def __init__(self):
-        self.all_data = pd.DataFrame(columns=['Date', 'Kejadian', 'hujan_00', 'hujan_300', 'hujan_600', 
+        self.all_data = pd.DataFrame(columns=['date', 'Kejadian', 'hujan_00', 'hujan_300', 'hujan_600', 
                                               'hujan_900', 'hujan_1200', 'hujan_1500', 'hujan_2100', 
                                               'min_hujan', 'max_hujan', 'avg_hujan'])
         self.previous_values = {}
@@ -96,7 +96,7 @@ def process_data():
             hasil_prediksi = "Banjir" if hasil_prediksi[0] == 1 else "Tidak Banjir"
 
             # Menambahkan hasil prediksi ke DataFrame
-            new_data = {'Date': [selected_date.strftime('%Y-%m-%d')],
+            new_data = {'date': [selected_date.strftime('%Y-%m-%d')],
                         'Kejadian': [hasil_prediksi],
                         'hujan_00': [float(rainfall_00)],
                         'hujan_300': [float(rainfall_300)],
@@ -128,7 +128,7 @@ def process_data():
     st.success(hasil_prediksi)
 
     # Menampilkan DataFrame hasil prediksi
-    state.all_data = state.all_data.sort_values(by=['Date'], ascending=True)
+    state.all_data = state.all_data.sort_values(by=['date'], ascending=True)
     state.all_data = state.all_data.reset_index(drop=True)
     st.table(state.all_data)
 
@@ -249,7 +249,7 @@ def process_forecast_data(forecast_data):
             hasil_prediksi = "Banjir" if hasil_prediksi[0] == 1 else "Tidak Banjir"
 
             # Menambahkan hasil prediksi ke DataFrame
-            new_data = {'Date': [selected_date.strftime('%Y-%m-%d')],
+            new_data = {'date': [selected_date.strftime('%Y-%m-%d')],
                         'Kejadian': [hasil_prediksi],
                         'hujan_00': [float(rainfall_00)],
                         'hujan_300': [float(rainfall_300)],
@@ -281,14 +281,14 @@ def process_forecast_data(forecast_data):
     st.success(hasil_prediksi)
 
     # Menampilkan DataFrame hasil prediksi
-    state.all_data = state.all_data.sort_values(by=['Date'], ascending=True)
+    state.all_data = state.all_data.sort_values(by=['date'], ascending=True)
     state.all_data = state.all_data.reset_index(drop=True)
     st.table(state.all_data)
 
     # Membuat Tombol untuk Download Dataframe ke Bentuk CSV
     if not state.all_data.empty:
         csv_data = state.all_data.to_csv(index=False)
-        st.download_button(label="Download CSV", data=csv_data, file_name='output.csv', key='download_button')
+        st.download_button(label="Download CSV", data=csv_data, file_name='prediction.csv', key='download_button')
 
     # Menampilkan penjelasan dari data di atas
     st.text("Setelah mendapatkan prediksi curah hujan, model prediksi mengambil nilai-nilai ini sebagai input untuk menentukan potensi \

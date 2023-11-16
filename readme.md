@@ -1,15 +1,8 @@
 # Dashboard Pemantauan dan Prediksi Banjir di Kabupaten Cilacap
 
-## Deskripsi Proyek
+## Deskripsi
 
-Dashboard ini dikembangkan oleh kelompok 4 sebagai bagian dari Projek Akhir Program Pelatihan DTS TSA 2023 - Training on Machine Learning and Data Mining in the Data Science Capabilities. Tim pengembang terdiri dari:
-
-- Alfito Putra Fajar Pratama
-- Muhammad Zia Ulhaq
-- Filbert Leonardo
-- Muhammad Bayu Fadayan
-- Siti Ayuni
-- Amanda Febrianti
+Dashboard ini dikembangkan oleh Kelompok 4 sebagai bagian dari Projek Akhir Program Pelatihan DTS TSA 2023 - Training on Machine Learning and Data Mining in the Data Science Capabilities. Dashboard ini berfokus pada prediksi kejadian banjir berdasarkan data curah hujan.
 
 ## Latar Belakang
 
@@ -29,14 +22,49 @@ Proyek ini menggabungkan analisis curah hujan, pemodelan prediksi curah hujan, d
 
 1. Pastikan Anda memiliki akses internet yang stabil.
 2. Jalankan aplikasi menggunakan perintah berikut di terminal atau command prompt:
-    ``` bash
-    streamlit run main.py
+   ```bash
+   streamlit run main.py
+   ```
 3. Jelajahi fitur-fitur yang tersedia untuk mendapatkan informasi terkini.
-**Catatan:** Dashboard ini dibuat dengan menggunakan Streamlit.
+   **Catatan:** Dashboard ini dibuat dengan menggunakan Streamlit.
 
-## Kontribusi
+## Tim Pengembang
 
-Kami mengundang kontribusi dari komunitas untuk pengembangan lebih lanjut. Silakan buka *issues* untuk melaporkan bug atau saran perbaikan, atau buat *pull requests* untuk menambahkan fitur baru.
----
+Tim pengembang dashboard ini terdiri dari:
+
+- Alfito Putra Fajar Pratama
+
+  - Email: [alfitoputra567@gmail.com](mailto:alfitoputra567@gmail.com)
+  - LinkedIn: [Alfito Putra Fajar Pratama](https://www.linkedin.com/in/alfitoptr/)
+
+- Muhammad Zia Ulhaq
+
+  - Email: [ziaswatfbicia@gmail.com](mailto:ziaswatfbicia@gmail.com)
+  - LinkedIn: [Muhammad Zia Ulhaq](http://www.linkedin.com/in/muhammad-zia-ulhaq-025230206)
+
+- Filbert Leonardo
+
+  - Email: [filbertleo88@gmail.com](mailto:filbertleo88@gmail.com)
+  - LinkedIn: [Filbert Leonardo](https://www.linkedin.com/in/filbert-leonardo/)
+
+- Muhammad Bayu Fadayan
+
+  - Email: [bayufadayan@gmail.com](mailto:bayufadayan@gmail.com)
+  - LinkedIn: [Muhammad Bayu Fadayan](https://www.linkedin.com/in/muhamad-bayu-fadayan)
+
+- Siti Ayuni
+
+  - Email: [sitiayuni2510@gmail.com](mailto:sitiayuni2510@gmail.com)
+  - LinkedIn: [Siti Ayuni](https://www.linkedin.com/in/sitiayuni25/)
+
+- Amanda Febrianti
+  - Email: [amandafeb2002@gmail.com](mailto:amandafeb2002@gmail.com)
+  - LinkedIn: [Amanda Febrianti](https://www.linkedin.com/in/amanda-febrianti/)
+
+## Tujuan Projek
+
+Projek ini bertujuan untuk memberikan pemahaman lebih lanjut tentang prediksi kejadian banjir berdasarkan data curah hujan. Dashboard ini merupakan hasil dari penerapan keterampilan yang diperoleh selama program pelatihan.
+
+**Catatan:** Projek ini disusun semata-mata untuk tujuan pendidikan dan pembelajaran. Semua konsep dan implementasi dalam dashboard ini didasarkan pada prinsip-prinsip pembelajaran yang kami peroleh selama program.
 
 Terima kasih telah menggunakan Dashboard Pemantauan dan Prediksi Banjir di Kabupaten Cilacap. Semoga dapat memberikan kontribusi positif dalam upaya pencegahan dan mitigasi dampak banjir di wilayah tersebut.
