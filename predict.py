@@ -16,8 +16,8 @@ state = SessionState()
 
 # Load Model Machine Learning
 def load_model():
-    # model = joblib.load('models/prediksi/xgboost.sav') # Model XGboost
-    model = joblib.load('models/prediksi/catboost.sav') # Model Catboost {install catboost terlebih dahulu}
+    model = joblib.load('models/prediksi/xgboost.sav') # Model XGboost
+    # model = joblib.load('models/prediksi/catboost.sav') # Model Catboost {install catboost terlebih dahulu}
     return model
 
 # Menghitung Nilai Metriks
